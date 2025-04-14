@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogging App - Create/Edit Blog</title>
+</head>
+<body>
+    <div align="center">
+        <div style="width: 800px; border: 1px solid black;">
+            <!-- Header -->
+            <div style="background-color: #f0f0f0; height: 50px; border-bottom: 1px solid black; text-align: center; display: flex; justify-content: center; align-items: center;">
+                <font size="5">Edit / Create Blog</font>
+            </div>
+            
+            <!-- Main Content Area -->
+            <div style="display: flex;">
+                <!-- Left Navigation Menu -->
+                <div style="width: 120px; border-right: 1px solid black;">
+                    <div style="padding: 5px;">------</div>
+                    <div style="padding: 5px;">------</div>
+                    <div style="padding: 5px;">------</div>
+                    <div style="padding: 5px;">------</div>
+                    <div style="padding: 5px;">------</div>
+                </div>
+                
+                <!-- Main Content Area -->
+                <div style="width: 680px;">
+                    <div style="padding: 20px;">
+                        <form action="#" method="post">
+                            <!-- Title Row -->
+                            <div style="display: flex; margin-bottom: 10px;">
+                                <div style="width: 120px; text-align: right; padding-right: 10px; padding-top: 5px;">
+                                    <b>Title :</b>
+                                </div>
+                                <div>
+                                    <input type="text" name="title" style="width: 350px; height: 25px;">
+                                </div>
+                            </div>
+                            
+                            <!-- Contents Row -->
+                            <div style="display: flex; margin-bottom: 10px;">
+                                <div style="width: 120px; text-align: right; padding-right: 10px; padding-top: 5px;">
+                                    <b>Contents :</b>
+                                </div>
+                                <div>
+                                    <textarea name="contents" style="width: 350px; height: 120px;"></textarea>
+                                </div>
+                            </div>
+                            
+                            <!-- Category Row -->
+                            <div style="display: flex; margin-bottom: 10px;">
+                                <div style="width: 120px; text-align: right; padding-right: 10px; padding-top: 5px;">
+                                    <b>Category :</b>
+                                </div>
+                                <div>
+                                    <select name="category" style="width: 350px; height: 25px;">
+                                        <option value="">Select Category</option>
+                                        <option value="technology">Technology</option>
+                                        <option value="travel">Travel</option>
+                                        <option value="food">Food</option>
+                                        <option value="lifestyle">Lifestyle</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <!-- Buttons Row -->
+                            <div style="display: flex; margin-bottom: 10px;">
+                                <div style="width: 120px;"></div>
+                                <div style="display: flex;">
+                                    <div>
+                                        <input type="submit" value="Create" style="width: 150px; height: 30px;">
+                                    </div>
+                                    <div style="width: 20px;"></div>
+                                    <div>
+                                        <input type="button" value="Cancel" style="width: 150px; height: 30px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer -->
+            <div style="background-color: #f0f0f0; height: 30px; border-top: 1px solid black; text-align: center; line-height: 30px;">
+                Create Blog
+            </div>
+        </div>
+    </div>
+</body>
+</html>

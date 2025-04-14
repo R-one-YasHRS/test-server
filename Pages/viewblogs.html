@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogging App - View Blogs</title>
+</head>
+<body>
+    <div align="center">
+        <div style="width: 800px; border: 1px solid black;">
+            <!-- Header -->
+            <div style="background-color: #f0f0f0; height: 50px; border-bottom: 1px solid black; text-align: center; display: flex; justify-content: center; align-items: center;">
+                <font size="5">All Blogs / My Blogs</font>
+            </div>
+            
+            <!-- Main Content Area -->
+            <div style="display: flex;">
+                <!-- Left Navigation Menu -->
+                <div style="width: 120px; border-right: 1px solid black;">
+                    <div style="padding: 5px;">------</div>
+                    <div style="padding: 5px;">------</div>
+                    <div style="padding: 5px;">------</div>
+                    <div style="padding: 5px;">------</div>
+                    <div style="padding: 5px;">------</div>
+                </div>
+                
+                <!-- Main Content Area -->
+                <div style="width: 680px; text-align: center;">
+                    <div style="padding: 20px;">
+                        <!-- Blogs List -->
+                        <form action="" method="post">
+                            <div style="width: 500px; border: 1px solid black;">
+                                <!-- Header Row -->
+                                <div style="display: flex; background-color: #f0f0f0; border-bottom: 1px solid black;">
+                                    <div style="width: 50px; padding: 5px; font-weight: bold; border-right: 1px solid black;">Id</div>
+                                    <div style="width: 200px; padding: 5px; font-weight: bold; border-right: 1px solid black;">Title</div>
+                                    <div style="width: 150px; padding: 5px; font-weight: bold; border-right: 1px solid black;">Category</div>
+                                    <div style="width: 100px; padding: 5px; font-weight: bold;">Actions</div>
+                                </div>
+                                
+                                <!-- Blog Row 1 -->
+                                <div style="display: flex; border-bottom: 1px solid black;">
+                                    <div style="width: 50px; padding: 5px; text-align: center; border-right: 1px solid black;">1</div>
+                                    <div style="width: 200px; padding: 5px; text-align: left; border-right: 1px solid black;">Blog Title 1</div>
+                                    <div style="width: 150px; padding: 5px; text-align: left; border-right: 1px solid black;">Technology</div>
+                                    <div style="width: 100px; padding: 5px; text-align: center;">
+                                        <button type="submit" name="edit" value="1" style="background: none; border: none; cursor: pointer;">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM2NjY2NjYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTcgM2EyLjgyOCAyLjgyOCAwIDEgMSA0IDRMNy41IDIwLjVIMy41di00TDE2LjUgNXoiPjwvcGF0aD48L3N2Zz4=" alt="Edit" width="16" height="16">
+                                        </button>
+                                        &nbsp;
+                                        <button type="submit" name="delete" value="1" style="background: none; border: none; cursor: pointer;">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM2NjY2NjYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCI+PC9jaXJjbGU+PGxpbmUgeDE9IjE1IiB5MT0iOSIgeDI9IjkiIHkyPSIxNSI+PC9saW5lPjxsaW5lIHgxPSI5IiB5MT0iOSIgeDI9IjE1IiB5Mj0iMTUiPjwvbGluZT48L3N2Zz4=" alt="Delete" width="16" height="16">
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- Blog Row 2 -->
+                                <div style="display: flex; border-bottom: 1px solid black;">
+                                    <div style="width: 50px; padding: 5px; text-align: center; border-right: 1px solid black;">2</div>
+                                    <div style="width: 200px; padding: 5px; text-align: left; border-right: 1px solid black;">Blog Title 2</div>
+                                    <div style="width: 150px; padding: 5px; text-align: left; border-right: 1px solid black;">Travel</div>
+                                    <div style="width: 100px; padding: 5px; text-align: center;">
+                                        <button type="submit" name="edit" value="2" style="background: none; border: none; cursor: pointer;">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM2NjY2NjYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTcgM2EyLjgyOCAyLjgyOCAwIDEgMSA0IDRMNy41IDIwLjVIMy41di00TDE2LjUgNXoiPjwvcGF0aD48L3N2Zz4=" alt="Edit" width="16" height="16">
+                                        </button>
+                                        &nbsp;
+                                        <button type="submit" name="delete" value="2" style="background: none; border: none; cursor: pointer;">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM2NjY2NjYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCI+PC9jaXJjbGU+PGxpbmUgeDE9IjE1IiB5MT0iOSIgeDI9IjkiIHkyPSIxNSI+PC9saW5lPjxsaW5lIHgxPSI5IiB5MT0iOSIgeDI9IjE1IiB5Mj0iMTUiPjwvbGluZT48L3N2Zz4=" alt="Delete" width="16" height="16">
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <!-- Blog Row 3 -->
+                                <div style="display: flex;">
+                                    <div style="width: 50px; padding: 5px; text-align: center; border-right: 1px solid black;">3</div>
+                                    <div style="width: 200px; padding: 5px; text-align: left; border-right: 1px solid black;">Blog Title 3</div>
+                                    <div style="width: 150px; padding: 5px; text-align: left; border-right: 1px solid black;">Food</div>
+                                    <div style="width: 100px; padding: 5px; text-align: center;">
+                                        <button type="submit" name="edit" value="3" style="background: none; border: none; cursor: pointer;">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM2NjY2NjYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cGF0aCBkPSJNMTcgM2EyLjgyOCAyLjgyOCAwIDEgMSA0IDRMNy41IDIwLjVIMy41di00TDE2LjUgNXoiPjwvcGF0aD48L3N2Zz4=" alt="Edit" width="16" height="16">
+                                        </button>
+                                        &nbsp;
+                                        <button type="submit" name="delete" value="3" style="background: none; border: none; cursor: pointer;">
+                                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM2NjY2NjYiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIxMCI+PC9jaXJjbGU+PGxpbmUgeDE9IjE1IiB5MT0iOSIgeDI9IjkiIHkyPSIxNSI+PC9saW5lPjxsaW5lIHgxPSI5IiB5MT0iOSIgeDI9IjE1IiB5Mj0iMTUiPjwvbGluZT48L3N2Zz4=" alt="Delete" width="16" height="16">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer -->
+            <div style="background-color: #f0f0f0; height: 30px; border-top: 1px solid black; text-align: center; line-height: 30px;">
+                All and My Blogs
+            </div>
+        </div>
+    </div>
+</body>
+</html>
